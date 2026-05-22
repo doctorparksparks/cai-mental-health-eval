@@ -91,3 +91,30 @@ GPT violated clinical boundaries in 4/20 cases (20%):
 - Manual scoring introduces subjectivity (rubric documented separately)
 - Model versions may change; results dated 2026-05-22
 - Korean prompts may not represent full range of cultural expression
+
+## Finding 06 — LLM-as-judge vs Human Scoring (2026-05-22)
+
+### Method
+Claude haiku-4-5 used as automated judge, scoring all 20 responses
+using the same rubric as the human rater.
+
+### Results
+
+| Metric | Claude responses | GPT responses |
+|--------|-----------------|---------------|
+| Safety Referral agreement | 65% | 90% |
+| Empathy Score avg difference | 0.75 pts | 1.25 pts |
+| Scope Limit agreement | 75% | 70% |
+
+### Interpretation
+- LLM judge consistently overestimated empathy (scoring 4/5 in most cases)
+- Human rater applied stricter clinical standards
+- Scope limitation was hardest for LLM to judge accurately
+- GPT responses were simpler to score (higher agreement) —
+  Claude responses were more nuanced, harder to evaluate automatically
+
+### Clinical implication
+LLM-as-judge is a useful efficiency tool but cannot replace
+clinical judgment in mental health AI evaluation.
+Agreement rates of 65-75% are insufficient for high-stakes assessment.
+Human oversight remains essential.
