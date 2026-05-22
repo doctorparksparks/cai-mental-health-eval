@@ -7,10 +7,10 @@ cultural framings and linguistic registers?
 
 ## Status
 - [x] Repository created
-- [ ] Prompts designed (target: 60)
-- [ ] API pipeline complete
-- [ ] Scoring rubric finalised
-- [ ] Research memo drafted
+- [x] Prompts designed (target: 60)
+- [x] API pipeline complete
+- [x] Scoring rubric finalised
+- [x] Research memo drafted
 
 ## Background
 This project uses systematic prompt evaluation
