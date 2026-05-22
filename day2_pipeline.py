@@ -16,9 +16,10 @@ openai_client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 def call_claude(prompt):
     response = claude_client.messages.create(
         model="claude-haiku-4-5",
-    max_tokens=256,
-    messages=[{"role": "user", "content": prompt}]
+        max_tokens=256,
+        messages=[{"role": "user", "content": prompt}]
     )
+    return response.content[0].text
 
 def call_gpt(prompt):
     response = openai_client.chat.completions.create(
@@ -36,7 +37,7 @@ def run_pipeline(prompts_csv, output_csv):
         print(f"진행 중: {row['id']}/20")
               
         claude_response = call_claude(row["prompt"])
-        time. sleep(0.5)
+        time.sleep(0.5)
 
         gpt_response = call_gpt(row["prompt"])
         time.sleep(0.5)
