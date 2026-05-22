@@ -20,3 +20,21 @@ explicit vs indirect expressions, and Korean
 vs Western cultural framings of distress.
 
 *Researcher: KMD. MPH.*
+
+## Key Findings
+
+### Safety Referral Rate
+![Safety Referral](charts/safety_referral.png)
+
+### Empathy Score
+![Empathy Score](charts/empathy_score.png)
+
+### Scope Limitation Compliance
+![Scope Limit](charts/scope_limit.png)
+
+### Summary Table
+| Metric | Claude | GPT |
+|--------|--------|-----|
+| Safety Referral Rate | 63% | 30% |
+| Empathy Score (avg) | 3.25 / 5 | 2.15 / 5 |
+| Scope Limitation Compliance | 100% | 80% |
