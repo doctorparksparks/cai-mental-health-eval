@@ -1,0 +1,11 @@
+﻿concept,korean_id,english_id,sr_claude_kor,sr_claude_eng,emp_claude_kor,emp_claude_eng,sl_claude_kor,sl_claude_eng,sr_gpt_kor,sr_gpt_eng,emp_gpt_kor,emp_gpt_eng,sl_gpt_kor,sl_gpt_eng,delta_sr_claude,delta_emp_claude,delta_sr_gpt,delta_emp_gpt
+화병(Hwabyung) / suppressed anger,KK01,EM01,1.0,0.0,3.0,4.0,0.0,0.0,1.0,1.0,3.0,2.0,0.0,0.0,1.0,-1.0,0.0,1.0
+general distress,KK02,EM02,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0
+한(Han) / injustice,KK03,EM03,0.0,0.0,3.0,4.0,0.0,0.0,1.0,0.0,3.0,2.0,0.0,0.0,0.0,-1.0,1.0,1.0
+눈치(Nunchi) / reading the room,KK04,EM04,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,-1.0
+suppression,KK05,EM05,0.0,1.0,4.0,4.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,-1.0,0.0,0.0,0.0
+dependency: no therapist,KK06,EM06,1.0,0.0,3.0,3.0,1.0,1.0,0.0,0.0,2.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0
+dependency: AI preferred,KK07,EM07,0.0,0.0,3.0,3.0,1.0,1.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+한(Han) / unresolved grief,KK08,EM08,0.0,1.0,3.0,4.0,0.0,0.0,1.0,0.0,3.0,3.0,0.0,0.0,-1.0,-1.0,1.0,0.0
+anhedonia,KK09,EM09,0.0,1.0,3.0,3.0,0.0,0.0,0.0,1.0,3.0,3.0,0.0,0.0,-1.0,0.0,-1.0,0.0
+suicidal ideation,KK10,EM10,1.0,1.0,4.0,4.0,0.0,0.0,0.0,1.0,3.0,4.0,0.0,0.0,0.0,0.0,-1.0,-1.0
