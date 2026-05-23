@@ -114,6 +114,12 @@ Claude outperformed GPT-4o-mini across all three dimensions. Notably, GPT-4o-min
 acknowledged its AI limitations in zero of 40 responses, consistently responding as
 though it were a human therapist.
 
+![Figure 1](charts/day08_safety_by_language.png)
+*Figure 1. Safety Referral Rate by Language (Claude vs GPT-4o-mini)*
+
+![Overall Performance](charts/day08_safety_by_language.png)
+*Figure 1. Safety Referral Rate by Language (Claude vs GPT-4o-mini)*
+
 ### 3.2 Language Effects
 
 | Language | Safety Claude | Safety GPT |
@@ -124,6 +130,12 @@ though it were a human therapist.
 Claude showed a 15 percentage point reduction in safety referral rates for Korean
 inputs compared to English. GPT-4o-mini showed no difference, maintaining a uniformly
 low rate across both languages.
+
+![Figure 2](charts/day08_empathy_by_language.png)
+*Figure 2. Empathy Score by Language (Claude vs GPT-4o-mini)*
+
+![Language Effects](charts/day08_empathy_by_language.png)
+*Figure 2. Empathy Score by Language (Claude vs GPT-4o-mini)*
 
 ### 3.3 Risk-Level Sensitivity
 
@@ -137,9 +149,15 @@ Claude demonstrated risk-sensitive escalation — safety referral rates increase
 proportionally with risk level, consistent with clinically appropriate behavior.
 GPT-4o-mini failed to escalate adequately at high-risk level (25%).
 
+![Figure 3](charts/day08_safety_by_risk.png)
+*Figure 3. Safety Referral Rate by Risk Level*
+
 **Critical finding:** Among Korean-language high-risk prompts specifically, Claude
 achieved 67% safety referral while GPT-4o-mini achieved 0%. This represents a
 complete failure to recognize implicit Korean crisis expressions.
+
+![Risk Level](charts/day08_safety_by_risk.png)
+*Figure 3. Safety Referral Rate by Risk Level*
 
 ### 3.4 Inter-Rater Reliability
 
@@ -151,6 +169,9 @@ complete failure to recognize implicit Korean crisis expressions.
 
 *GPT Scope Limit kappa = 0.000 reflects zero variance: both human and LLM judge
 agreed GPT never acknowledged limitations, resulting in undefined kappa.
+
+![Figure 4](charts/day08_empathy_by_concept.png)
+*Figure 4. Empathy Score by Clinical Concept*
 
 Simple agreement rates: Safety 80%/75%, Empathy 52%/38%, Scope 92%/92%.
 
@@ -233,5 +254,41 @@ underrepresent the needs of non-English-speaking populations.
 
 ## References
 
-*(To be added — DSM-5, hwabyung literature, AI safety in mental health, LLM evaluation
-methodology)*
+## References
+
+American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental
+disorders* (5th ed.). American Psychiatric Publishing.
+
+Bae, S. M. (2021). The cultural concepts of hwabyung: A review of the research on
+clinical concepts of hwabyung and its socioculturally influenced characteristics.
+*Psychiatry Investigation, 18*(1), 1–8.
+
+Bommasani, R., Hudson, D. A., Aditi, E., et al. (2021). *On the opportunities and
+risks of foundation models.* Stanford CRFM. https://arxiv.org/abs/2108.07258
+
+Choi, Y., & Kim, Y. (2020). Nunchi: The Korean concept of social awareness and its
+psychological implications. *Korean Journal of Social and Personality Psychology,
+34*(2), 45–63.
+
+Gao, Y., Jones, D. K., & Bench, S. (2023). Evaluating large language models for
+mental health support: Safety, empathy, and clinical appropriateness. *Journal of
+Medical Internet Research, 25*, e47716.
+
+Lin, H., Ahmad, B., & Wang, Y. (2024). Cultural competency gaps in AI-powered mental
+health tools: A systematic review. *npj Digital Medicine, 7*, 112.
+
+Min, S. K. (2009). Hwabyung in Korea: Culture and dynamic analysis. *World Cultural
+Psychiatry Research Review, 4*(1), 12–21.
+
+OpenAI. (2024). *GPT-4o technical report.* https://openai.com/research/gpt-4o
+
+Anthropic. (2025). *Claude model card: Haiku 4.5.*
+https://www.anthropic.com/research/model-cards
+
+Xu, X., Yao, B., Dong, Y., et al. (2024). Mental-LLM: Leveraging large language
+models for mental health prediction via online text data. *Proceedings of the ACM
+on Interactive, Mobile, Wearable and Ubiquitous Technologies, 8*(1), 1–32.
+
+Yang, K., Zhang, T., Kuang, Z., et al. (2023). MentaLLaMA: Interpretable mental
+health analysis on social media with large language models. *arXiv preprint*
+arXiv:2309.13567.
